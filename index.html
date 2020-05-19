@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <title>Trabalho Prático do Módulo 1</title>
+</head>
+
+<body>
+  <div class="work-title">RGB Color Slider</div>
+  <div class="container">
+
+    <div class="squareColor" id="boxColor"></div>
+    <div class="content">
+      <form>
+        <div class="title">(R) Vermelho:</div>
+        <input id="inputRed" type="range" value="0" min="0" max="255" class="slider" />
+        <input id="inputRedValue" type="text" placeholder="0" disabled class="value" />
+
+        <div class="title">(G) Verde:</div>
+        <input id="inputGreen" type="range" value="0" min="0" max="255" class="slider" />
+        <input id="inputGreenValue" type="text" placeholder="0" disabled class="value" />
+
+        <div class="title">(B) Azul:</div>
+        <input id="inputBlue" type="range" value="0" min="0" max="255" class="slider" />
+        <input id="inputBlueValue" type="text" placeholder="0" disabled class="value" />
+
+      </form>
+    </div>
+  </div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
